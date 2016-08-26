@@ -4,7 +4,7 @@ import json
 
 REGION = "na" #NA by default, can be changed
 URL = "https://" + REGION + ".api.pvp.net"
-APIKEY = "051db1a2-6b57-41c4-bc99-1e3a29056047"
+APIKEY = ""
 RateLimit_perMin = "500" #500 Requests per 10 Minutes
 RateLimit_perSec = "10" #10 requests per second
 
@@ -31,7 +31,10 @@ class RunePage:
 		self.id = str(data["id"])
 		self.name = data["name"]
 		self.current = data["current"]
-		self.slots = data["slots"]
+		if "slots" in data:
+			self.slots = data["slots"]
+		else:
+			self.slots = []
 
 class MasteryPage:
 
@@ -39,7 +42,10 @@ class MasteryPage:
 		self.id = str(data["id"])
 		self.name = data["name"]
 		self.current = data["current"]
-		self.masteries = data["masteries"]
+		if "masteries" in data:
+			self.masteries = data["masteries"]
+		else:
+			self.masteries = []
 
 class RiotAPI:
 
@@ -78,11 +84,13 @@ class RiotAPI:
 	def getMasteriesById(SummonerId,region):
 		#/api/lol/{region}/v1.4/summoner/{summonerIds}/masteries
 		masteries = get(URL + "/api/lol/" + region + "/v1.4/summoner/" + str(SummonerId) + "/masteries" + "?api_key=" + APIKEY)
+		#return json.loads(masteries.text)[str(SummonerId)]["pages"][0]["masteries"]
 		Pages = json.loads(masteries.text)[str(SummonerId)]["pages"]
 		MasteryPages = dict()
 		for page in Pages:
 			MasteryPages[page["name"]] = MasteryPage(page)
 		return MasteryPages
+		
 
 	def getRunesByUsername(username,region):
 		#/api/lol/{region}/v1.4/summoner/{summonerIds}/runes
