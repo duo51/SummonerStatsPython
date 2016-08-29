@@ -47,6 +47,9 @@ class MasteryPage:
 		else:
 			self.masteries = []
 
+	def getMasteryInfo(id):
+
+
 class RiotAPI:
 
 	def findByUsername(username,region):
@@ -106,8 +109,6 @@ class RiotAPI:
 		for page in Pages:
 			RunePages[page["name"]] = RunePage(page)
 		return RunePages
-
-
 
 User = Summoner("xavidram","na")
 print(User.getMasteries())

@@ -1,0 +1,141 @@
+[
+	{
+		"id" : "6111",
+		"name" : "Fury",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "+0.8% Attach Speed",
+			"Rank_2" : "+1.6% Attack Speed",
+			"Rank_3" : "+2.4% Attack Speed",
+			"Rank_4" : "+3.2% Attack Speed",
+			"Rank_5" : "+4.0% Attack Speed"
+		}
+	},{
+		"id" : "6114",
+		"name" : "Sorcery",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "+0.4% Increased Ability Damage",
+			"Rank_2" : "+0.8% Increased Ability Damage",
+			"Rank_3" : "+1.2% Increased Ability Damage",
+			"Rank_4" : "+1.6% Increased Ability Damage",
+			"Rank_5" : "+2.0% Increased Ability Damage"
+		}
+	},{
+		"id" : "6121",
+		"name" : "Double Edged Sword",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Deal 3% additional damage, take 1.5% additional damage"
+		}
+	},{
+		"id" : "6122",
+		"name" : "Feast",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Killing a unit restores 20 health (30 second cooldown)"
+		}
+	},{
+		"id" : "6123",
+		"name" : "Expose Weakness",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Damaging enemy champions causes them to tak 3% more damage from your allies"
+		}
+	},{
+		"id" : "6131",
+		"name" : "Vampirism",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "+0.4% Life Steal and Spell Vamp",
+			"Rank_2" : "+0.8% Life Steal and Spell Vamp",
+			"Rank_3" : "+1.2% Life Steal and Spell Vamp",
+			"Rank_4" : "+1.6% Life Steal and Spell Vamp",
+			"Rank_5" : "+2.0% Life Steal and Spell Vamp"
+		}
+	},{
+		"id" : "6134",
+		"name" : "Natural Talent",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Gain 0.4 + 0.09 per level Attack Damage and 0.6 + 0.13 per level Ability Power (+2 Attack Damage and 3 Ability Power at level 18)",
+			"Rank_2" : "Gain 0.8 + 0.04 per level Attack Damage and 1.2 + 0.27 per level Ability Power (+4 Attack Damage and 6 Ability Power at level 18)",
+			"Rank_3" : "Gain 1.2 + 0.27 per level Attack Damage and 1.8 + 0.40 per level Ability Power (+6 Attack Damage and 9 Ability Power at level 18)",
+			"Rank_4" : "Gain 1.6 + 0.36 per level Attack Damage and 2.4 + 0.53 per level Ability Power (+8 Attack Damage and 12 Ability Power at level 18)",
+			"Rank_5" : "Gain 2.4 + 0.44 per level Attack Damage and 3.0 + 0.67 per level Ability Power (+10 Attack Damage and 15 Ability Power at level 18)"
+		}
+	},{
+		"id" : "6141",
+		"name" : "Bounty Hunter",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Deal 1% increased damage for each unique enemy champion you have killed"
+		}
+	},{
+		"id" : "6142",
+		"name" : "Oppressor",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Deal 2.5% increased damage to targets with impaired movement (slow,stun,root,taunt,etc)"
+		}
+	},{
+		"id" : "6151",
+		"name" : "Battering Blows",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "+1.4% Armor Penetration",
+			"Rank_2" : "+2.8% Armor Penetration",
+			"Rank_3" : "+4.2% Armor Penetration",
+			"Rank_4" : "+5.6% Armor Penetration",
+			"Rank_5" : "+7.0% Armor Penetration"
+		}
+	},{
+		"id" : "6154",
+		"name" : "Piercing Thoughts",
+		"PointsPossible" : "5",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "+1.4% Magic Penetration",
+			"Rank_2" : "+2.8% Magic Penetration",
+			"Rank_3" : "+4.2% Magic Penetration",
+			"Rank_4" : "+5.6% Magic Penetration",
+			"Rank_5" : "+7.0% Magic Penetration"
+		}
+	},{
+		"id" : "6161",
+		"name" : "Warlord's Bloodlust",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Gain increasingly more Life Steal based on your missing health against champions (up to 20%). Against minions gain 50% benefit (25% for ranged champions)."
+		}
+	},
+	{
+		"id" : "6162",
+		"name" : "Fevor of Battle",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Hitting champions with attacks and abilities generates a Fevor stack (2 for melee attacks, 2 second cooldown for ability hits). Stacks of Fevor last 6 seconds (Max 8 stacks).\n\nYour basic attacks deal 1-14 bonus physical damage to champions for each stack."
+		}
+	},{
+		"id" : "6164",
+		"name" : "Deathfire Torch",
+		"PointsPossible" : "1",
+		"branch" : "FEROCITY",
+		"stats" : {
+			"Rank_1" : "Your damaging abilities cause enemy champions to take magic damage over 4 seconds.\n\n Damage: 8 + 60% Bonus Attack Damage and 25% Ability Power.\n\n Deathfire Touch's duration is reduced for:\n- Area of EffectL 2 second duration.\n- Damage over Time: 1 second duration."
+		}
+	},
+
+]
