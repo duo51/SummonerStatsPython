@@ -1,3 +1,3 @@
-APIKEY = "API KEY HERE"
+APIKEY = "API_KEY_HERE"
 RateLimit_perMin = "500" 
 RateLimit_perSec = "10" 
